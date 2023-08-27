@@ -13,15 +13,17 @@
             saida = " <h1>Exibindo os Dados do Cliente:</h1>";
             saida = saida + "<br>clienteId: " + form.clienteId.value;
             saida = saida + "<br>Nome: " + form.nome.value;
-            saida = saida + "<br>cpf: " + form.CPF.value;
+            saida = saida + "<br>CPF: " + form.CPF.value;
             document.write(saida);
         }
+
         // Função para verificar se um campo está vazio
         function eVazio(_str) {
             if (_str == null || _str == "")
                 return true;
             return false;
         }
+
         // Função para validar os dados do formulário
         function validar(form) {
             if (eVazio(form.clienteId.value)) {
@@ -32,6 +34,7 @@
                 alert('Nome deve ter um valor');
                 return false;
             }
+            //Se os campos foram preenchidos corretamente, chama a função Enviar
             Enviar(form);
             return true;
         } 
