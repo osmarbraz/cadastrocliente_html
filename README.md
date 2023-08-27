@@ -1,7 +1,7 @@
-# Programa cadastro e cliente em html, javascript e css.
+# Programa cadastro de cliente em html, javascript e css.
 
 ## 
-- O projeto foi desenvolvido no VSCode deve ser chamado "cadastrocliente_html".
+O projeto foi desenvolvido no VSCode deve ser chamado "cadastrocliente_html".
 
 ## Descrição
 
@@ -13,6 +13,8 @@ As informações que cada cliente deve preencher são as seguintes:
 - CPF: (Caixa de texto, tamanho 20, máximo 15)
 
 Crie o formulário para que o cliente possa informar esses dados em uma página web. 
+
 Os campos clienteId e nome devem ter o se preenchimento obrigratório.
+
 Lembre-se de utilizar CSS para melhorar o visual do formulário.
 
