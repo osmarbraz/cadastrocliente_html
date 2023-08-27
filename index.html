@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <link rel="stylesheet"  type="text/css" href="estilo.css" />
+    <title>Cadastro Cliente</title>
+  </head>
+    <body>
+  <script language="JavaScript">
+
+function Enviar(form) {
+    saida = " <h1>Exibindo os Dados do Cliente:</h1>";
+            saida = saida + "<br>clienteId: "+form.clienteId.value;
+            saida = saida + "<br>Nome: "+form.nome.value;
+            saida = saida + "<br>cpf: "+form.cpf.value;
+            document.write(saida);
+}
+function eVazio(_str) {
+  if (_str==null || _str=="")
+    return true;
+  return false;
+}
+ 
+function validar(form) {
+  if (eVazio(form.clienteId.value)) {
+    alert('ClienteId deve ter um valor');   
+    return false;
+  }
+  if (eVazio(form.nome.value)) {
+    alert('Nome deve ter um valor');
+    return false;
+  }
+  Enviar(form);
+  return true;
+}
+ 
+</script>
+ 
+    <h1>Dados de Cliente</h1>
+    <form name="FrmCadastroCliente" method="post" action="" >                      
+               ClienteId: <input type=text name="clienteId" size=10 maxlength=10> <p>
+       Nome: <input type=text name="nome" size=50 maxlength=40> <p>               
+       cpf: <input type=text name="cpf" size=20 maxlength=15> <p>
+       <input type="reset" value="Limpar">
+       <input type="button" name="Cadastrar" value="Cadastrar" onClick="return validar(this.form); "> <p>               
+     </form>
+  </body>
+</html>           
