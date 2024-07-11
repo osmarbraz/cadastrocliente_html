@@ -1,9 +1,10 @@
 # Programa cadastro de cliente em html, javascript e css.
 
-## 
+## Descrição
+
 O projeto foi desenvolvido no VSCode deve ser chamado "cadastrocliente_html".
 
-## Descrição
+## Contextualização
 
 Uma empresa necessita disponibilizar na web um formulário para cadastrar seus clientes.
 
