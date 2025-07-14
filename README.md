@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O projeto foi desenvolvido no VSCode deve ser chamado "cadastrocliente_html".
+O projeto desenvolvido deve ser chamado "cadastrocliente_html".
 
 ## Contextualização
 
